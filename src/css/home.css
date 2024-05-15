@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.boton {
+    margin-left: 41%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(17, 156, 166);
+    
+}
+
+.link {
+    background-color: rgb(17, 156, 166);
+    font-family: 'Roboto', sans-serif;
+}

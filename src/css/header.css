@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+    background-color: rgb(17, 156, 166); 
+    margin: 0%;
+    padding-left: 20px;
+    }
+    .custom-container {
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .custom-navbar-brand {
+        display: flex;
+        align-items: center; 
+    }
+    
+    .navbar-brand img {
+        margin-right: 20px; 
+    }
+    .letter {
+        text-align: center;
+        font-size: 2rem;
+        font-family:'Roboto', sans-serif;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9312b3, 0 0 40px #9312b3,
+        0 0 50px #9312b373, 0 0 60px #9312b3, 0 0 70px #9312b3;
+        font-style: italic;
+    }
