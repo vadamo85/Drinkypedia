@@ -4,31 +4,29 @@ body {
   background-color: rgb(17, 156, 166);
   font-family: "Roboto", sans-serif;
   display: flex;
-  height: 100vh;
 }
 
 .container {
   background-color: rgb(17, 156, 166);
-  max-width: 600px;
-  border: none !important;
   justify-content: center;
   align-items: center;
-  margin-left: 60%;
-  margin-top: 0%;
 }
 
 .card {
-  margin: 20px;
   background-color: rgb(17, 156, 166);
-  border: none !important;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: none;
 }
 
 .card-img-top {
-  width: 100%;
-  height: auto;
+  width: 25%;
   border-radius: 5px;
   margin-bottom: 20px;
-  border: none !important ;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-title {
@@ -42,16 +40,19 @@ body {
 .card-text {
   margin-bottom: 0.5rem;
   text-align: start;
+  font-size: .75em;
 }
 
 .boton1 {
-  margin-left: 505px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   background-color: rgb(17, 156, 166);
+  margin-bottom: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 .link {
   background-color: rgb(17, 156, 166);
   font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
 }

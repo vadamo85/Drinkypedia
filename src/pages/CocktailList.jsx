@@ -24,8 +24,6 @@ export const CocktailList = () => {
 
                 setError(error)
                 }
-
-                
          }
          fetchCocktail();
 }
@@ -36,7 +34,7 @@ export const CocktailList = () => {
       <Header />
 
       {/* mapear */}
-      <ul className="titulos">
+      <ul className="cocktailGrid">
         {cocktail.map((cocktailItem) => (
           <Cocktails key={cocktailItem.idDrink} cocktailMap={cocktailItem} />
         ))}

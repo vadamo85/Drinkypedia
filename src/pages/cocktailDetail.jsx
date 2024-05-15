@@ -23,8 +23,6 @@ export const CocktailDetail = () => {
         })
     }, [cocktailid])
 
-    // console.log(cocktail)
-
 
     // si pongo que el id no existe
 
@@ -34,24 +32,21 @@ export const CocktailDetail = () => {
 
 
     return (
-        <>
-      <Header />
+    <>
+        <Header />
         <div className="container mt-5">
             <div className="row justify-content-center">
-                
                 <div className="col-md-10">
                     <div className="card text-center-bg-light">
                     <img src={cocktail.strDrinkThumb} alt={cocktail.title} className="card-img-top" />
                  <div className="card-body">
                     <h5 className="card-title">
-                        
                         {cocktail.strDrink}
                     </h5>
                     <p className="card-text">
-                        <strong>Instructions :</strong>
+                        <strong>Instructions: </strong>
                         {cocktail.strInstructions}
                     </p>
-
                     <p className="card-text">
                         <strong>Ingredient 1: </strong>
                         {cocktail.strIngredient1}
@@ -60,7 +55,7 @@ export const CocktailDetail = () => {
                         <strong>Ingredient 2: </strong>
                         {cocktail.strIngredient2}
                     </p>
-                    <p>
+                    <p className="card-text">
                         <strong>Ingredient 3: </strong>
                         {cocktail.strIngredient3}
                     </p>
@@ -85,11 +80,11 @@ export const CocktailDetail = () => {
                  </div>
             </div>
         </div>
-        <div className="link"><Link to={`/cocktails`} className="btn btn-outline-light btn-lg boton1">
-        <i>Try a new cocktail!</i>
-
-      </Link>
-      </div>
+        <div className="link">
+            <Link to={`/cocktails`} className="btn btn-outline-light btn-lg boton1">
+                <i>Try a new cocktail!</i>
+            </Link>
+        </div>
         <Footer />
     </>
     );
